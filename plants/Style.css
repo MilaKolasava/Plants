@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 1222px;
+}
+
+.icon-logo {
+  background-image: url(./assets/image/logo_vector.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.loyaut-2-colomn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-link {
+  display: flex;
+  gap: 46px;
+}
+
+.navigation-link a {
+  text-decoration: none;
+  list-style-type: none;
+}
