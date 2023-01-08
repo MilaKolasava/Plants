@@ -98,3 +98,44 @@ h1 {
 .loyaut-2-colomn__welcome {
   padding: 49px 0 58px 0;
 }
+
+.about__information {
+  max-width: 605px;
+  font-family: "Inika", "Arial", sans-serif;
+}
+
+.about__header {
+  max-width: 462px;
+}
+
+.header-green {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #499a18;
+}
+
+.about-text_colored {
+  color: #e06733;
+}
+
+.about-text {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.wrapper_withoutcolor {
+  background: #ffffff;
+}
+
+.loyaut-2-colomn__about {
+  padding-top: 88px;
+  padding-bottom: 97px;
+  align-items: center;
+}
