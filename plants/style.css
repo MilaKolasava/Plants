@@ -145,3 +145,75 @@ h1 {
   padding-bottom: 97px;
   align-items: center;
 }
+
+.loyaut-2-colomn__service {
+  flex-direction: column;
+  padding-bottom: 122px;
+}
+
+.service__navigation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.service__header {
+  max-width: 306px;
+  font-family: "Inika", "Arial", sans-serif;
+  margin-right: 142px;
+}
+
+.button_colored {
+  margin-right: 38px;
+  font-family: "Inika", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #e06733;
+  border: #e06733 1px solid;
+  padding: 12px 40px;
+  border-radius: 5px;
+  width: 161px;
+}
+
+.service__information {
+  padding-top: 52px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 55px 116px;
+}
+
+.service__information-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+}
+
+.works__header {
+  margin: 0 auto;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #e06733;
+  padding-top: 5px;
+}
+
+.service__deskription {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+  padding-bottom: 16px;
+}
+
+.service__deskription-blok {
+  border: 1px solid #e3e1d5;
+  border-radius: 0px 0px 20px 20px;
+}
