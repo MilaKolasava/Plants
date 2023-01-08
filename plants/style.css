@@ -20,6 +20,10 @@ ol[class] {
   width: 1222px;
 }
 
+.wrapper_color {
+  background-color: #edf2ec;
+}
+
 .icon-logo {
   background-image: url(./assets/image/logo_vector.svg);
   width: 20px;
@@ -32,6 +36,9 @@ ol[class] {
   justify-content: space-between;
 }
 
+.loyaut-2-colomn__header {
+  padding: 42px 0;
+}
 .navigation-link {
   display: flex;
   gap: 46px;
@@ -40,4 +47,11 @@ ol[class] {
 .navigation-link a {
   text-decoration: none;
   list-style-type: none;
+  color: #010201;
+  font-family: "Inika", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.logo {
+  font-family: "Inika", "Arial", sans-serif;
 }
