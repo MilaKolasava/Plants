@@ -217,3 +217,49 @@ h1 {
   border: 1px solid #e3e1d5;
   border-radius: 0px 0px 20px 20px;
 }
+
+.prices__header {
+  margin: 0 auto;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.prices__contsct {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.prices__header_color {
+  max-width: 452px;
+}
+
+.loyaut-2-colomn__prices {
+  align-items: center;
+  padding-top: 40px;
+}
+
+.button_prices {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #e06733;
+  padding: 12px 33.96px 12px 30.04px;
+  background: none;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+}
+
+.prices-information {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
