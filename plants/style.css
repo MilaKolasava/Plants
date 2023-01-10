@@ -327,3 +327,35 @@ h1 {
   margin-left: 20px;
   margin-top: 5px;
 }
+
+.loyout-3-colomn__footer {
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.footer__github,
+.footer__rss {
+  display: flex;
+  gap: 40px 20px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.footer__github p a,
+.footer__rss p a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer__social-list {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.footer_social {
+  padding-top: 27px;
+}
