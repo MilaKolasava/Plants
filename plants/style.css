@@ -52,9 +52,12 @@ html {
   gap: 49px;
 }
 
-.navigation-link a {
-  text-decoration: none;
+.navigation-link li {
   list-style-type: none;
+}
+
+.navigation-link li a {
+  text-decoration: none;
   color: #010201;
   font-family: "Inika", "Arial", sans-serif;
   font-size: 16px;
