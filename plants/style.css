@@ -375,6 +375,11 @@ h1 {
   color: #000000;
 }
 
+.footer__github p a:hover,
+.footer__rss p a:hover {
+  color: #e06733;
+}
+
 .footer__social-list {
   display: flex;
   list-style-type: none;
