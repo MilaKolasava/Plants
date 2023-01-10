@@ -14,6 +14,10 @@ ol[class] {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 1440px;
@@ -55,6 +59,10 @@ ol[class] {
   font-family: "Inika", "Arial", sans-serif;
   font-size: 16px;
   line-height: 50px;
+}
+
+.navigation-link a:hover {
+  color: #e06733;
 }
 
 .logo {
@@ -99,6 +107,11 @@ h1 {
   color: #000000;
   font-family: "Inter", "Arial", sans-serif;
   background: none;
+}
+
+.button_border:hover {
+  background: #e06733;
+  color: #ffffff;
 }
 
 .loyaut-2-colomn__welcome {
@@ -176,6 +189,11 @@ h1 {
   border-radius: 5px;
   width: 161px;
   background: none;
+}
+
+.button_colored:hover {
+  background: #e06733;
+  color: #ffffff;
 }
 
 .service__information {
@@ -257,6 +275,11 @@ h1 {
   background: none;
   border: 1px solid #e06733;
   border-radius: 5px;
+}
+
+.button_prices:hover {
+  background: #e06733;
+  color: #ffffff;
 }
 
 .prices-information {
