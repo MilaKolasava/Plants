@@ -45,6 +45,7 @@ html {
 
 .loyaut-2-colomn__header {
   padding: 48px 0;
+  align-items: center;
 }
 .navigation-link {
   display: flex;
