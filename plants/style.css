@@ -214,6 +214,36 @@ h1 {
   border-radius: 20px;
 }
 
+.service__image {
+  background-size: cover;
+  width: 328px;
+  height: 350px;
+}
+
+.image-first {
+  background-image: url(./assets/image/first.png);
+}
+
+.image-second {
+  background-image: url(./assets/image/second.png);
+}
+
+.image-third {
+  background-image: url(./assets/image/third.png);
+}
+
+.image-fourth {
+  background-image: url(./assets/image/fouth.png);
+}
+
+.image-fifth {
+  background-image: url(./assets/image/fiveth.png);
+}
+
+.image-sixth {
+  background-image: url(./assets/image/sixth.png);
+}
+
 .works__header {
   margin: 0 auto;
   font-family: "Inter", "Arial", sans-serif;
