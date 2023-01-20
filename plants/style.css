@@ -77,6 +77,13 @@ html {
   font-weight: 400;
 }
 
+.welcome__image {
+  background-image: url(./assets/image/leafs.png);
+  background-size: cover;
+  width: 449px;
+  height: 408px;
+}
+
 .welcome__content {
   max-width: 549px;
   font-family: "Inter", "Arial", sans-serif;
@@ -465,13 +472,78 @@ h1 {
   }
 
   .loyaut-2-colomn__header {
-    padding: 32px 0;
+    padding: 32px 0 45px 0;
     align-items: center;
+  }
+
+  .loyaut-2-colomn__welcome {
+    flex-direction: row-reverse;
+    padding: 0;
+  }
+
+  .welcome__image {
+    width: 280px;
+    height: 255px;
+    margin-top: 30px;
+  }
+
+  .button_border {
+    margin-top: 20px;
+    margin-bottom: 68px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .welcome__content {
+    width: 341px;
+  }
+
+  .welcome__information {
+    font-size: 16px;
+    line-height: 25px;
   }
 }
 
 @media (max-width: 710px) {
+  .content {
+    width: 330px;
+  }
+
   .navigation {
     display: none;
+  }
+
+  .welcome__image {
+    display: none;
+  }
+
+  .loyaut-2-colomn__welcome {
+    padding: 0;
+    display: block;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .button_border {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 5px 16px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+  }
+
+  .welcome__content {
+    padding-top: 17px;
+  }
+
+  .welcome__information {
+    margin-top: 20px;
   }
 }
