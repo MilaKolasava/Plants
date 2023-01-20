@@ -47,9 +47,11 @@ html {
   padding: 48px 0;
   align-items: center;
 }
+
 .navigation-link {
   display: flex;
-  gap: 49px;
+  gap: 45px;
+  max-width: 452px;
 }
 
 .navigation-link li {
@@ -70,6 +72,9 @@ html {
 
 .logo {
   font-family: "Inika", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
 }
 
 .welcome__content {
@@ -446,4 +451,27 @@ h1 {
 
 .footer_social {
   padding-top: 27px;
+}
+
+@media (max-width: 1260px) {
+  .content {
+    width: 980px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .content {
+    width: 668px;
+  }
+
+  .loyaut-2-colomn__header {
+    padding: 32px 0;
+    align-items: center;
+  }
+}
+
+@media (max-width: 710px) {
+  .navigation {
+    display: none;
+  }
 }
