@@ -174,6 +174,13 @@ h1 {
   align-items: center;
 }
 
+.about__image {
+  background-image: url(./assets/image/houseplant.png);
+  background-size: cover;
+  width: 464px;
+  height: 479px;
+}
+
 .loyaut-2-colomn__service {
   flex-direction: column;
   padding-bottom: 122px;
@@ -504,6 +511,38 @@ h1 {
     font-size: 16px;
     line-height: 25px;
   }
+
+  .about__image {
+    width: 250px;
+    height: 258px;
+    margin-top: 48px;
+  }
+
+  .loyaut-2-colomn__about {
+    flex-direction: column;
+    padding-top: 39px;
+    padding-bottom: 95px;
+    margin: 0 auto;
+  }
+
+  .header-green {
+    text-align: center;
+    font-size: 35px;
+    line-height: 46px;
+  }
+
+  .about__header {
+    max-width: 423px;
+    margin: 0 auto;
+  }
+
+  .about__information {
+    max-width: 668px;
+  }
+
+  .about-text {
+    padding-top: 31px;
+  }
 }
 
 @media (max-width: 710px) {
@@ -545,5 +584,39 @@ h1 {
 
   .welcome__information {
     margin-top: 20px;
+  }
+
+  .about__image {
+    width: 150px;
+    height: 147px;
+    margin-top: 0px;
+  }
+
+  .loyaut-2-colomn__about {
+    padding-top: 29px;
+    padding-bottom: 36px;
+    margin: 0 auto;
+  }
+
+  .header-green {
+    text-align: center;
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .about__header {
+    max-width: 288px;
+    margin: 0 auto;
+  }
+
+  .about__information {
+    max-width: 330px;
+  }
+
+  .about-text {
+    margin: 0;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 13px;
   }
 }
