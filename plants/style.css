@@ -905,3 +905,13 @@ h1 {
     padding-top: 0px;
   }
 }
+
+@media (max-width: 372px) {
+  .content {
+    margin: 0 auto;
+    width: 250px;
+  }
+  .welcome__content {
+    max-width: 250px;
+  }
+}
