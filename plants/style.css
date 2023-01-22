@@ -381,6 +381,10 @@ h1 {
 }
 
 .contact__image {
+  background-image: url(./assets/image/contact_woman.png);
+  background-size: cover;
+  width: 400px;
+  height: 496.99px;
   margin-right: 113px;
 }
 
@@ -625,6 +629,36 @@ h1 {
   .loyaut-2-colomn__prices {
     padding-bottom: 84px;
   }
+
+  .loyout-3-colomn__contacts {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 37px;
+  }
+
+  .contact__header {
+    order: 3;
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin: 0 auto;
+  }
+
+  .contact-city {
+    order: 2;
+    margin-top: 100px;
+  }
+
+  .contact__image {
+    order: 1;
+    width: 200px;
+    height: 248.49px;
+    margin: 0 auto;
+    margin-top: 249px;
+    margin-left: 242px;
+  }
 }
 
 @media (max-width: 710px) {
@@ -810,5 +844,30 @@ h1 {
     padding-bottom: 40px;
     flex-direction: column;
     align-items: center;
+  }
+
+  .loyout-3-colomn__contacts {
+    padding-top: 25px;
+  }
+
+  .contact__header {
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .contact-city {
+    margin-top: 80px;
+    width: 300px;
+  }
+
+  .contact__image {
+    width: 100px;
+    height: 124.25px;
+    margin: 0 auto;
+    margin-top: 132px;
+  }
+
+  .contact__button {
+    margin-right: 21px;
   }
 }
