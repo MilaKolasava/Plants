@@ -659,6 +659,30 @@ h1 {
     margin-top: 249px;
     margin-left: 242px;
   }
+
+  .loyout-3-colomn__footer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 33px;
+  }
+
+  .footer_social {
+    padding-top: 9px;
+    margin: 0 auto;
+  }
+
+  .footer__rss p,
+  .footer__github,
+  .footer__github p,
+  .footer__rss p a,
+  .footer__github p a {
+    margin: 0 auto;
+    padding: 0;
+    line-height: 24px;
+  }
 }
 
 @media (max-width: 710px) {
@@ -869,5 +893,15 @@ h1 {
 
   .contact__button {
     margin-right: 21px;
+  }
+
+  .loyout-3-colomn__footer {
+    gap: 14px;
+
+    margin-top: 22px;
+  }
+
+  .footer_social {
+    padding-top: 0px;
   }
 }
