@@ -592,6 +592,39 @@ h1 {
   .loyaut-2-colomn__service {
     padding-bottom: 69px;
   }
+
+  .prices__header {
+    font-size: 35px;
+    line-height: 42px;
+    padding-left: 16px;
+  }
+
+  .prices__header_color {
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 296px;
+    padding: 0;
+  }
+
+  .prices-information {
+    gap: 57px;
+  }
+
+  .prices__items {
+    gap: 34px;
+  }
+
+  .prices__contsct {
+    padding-top: 99px;
+  }
+
+  .button_prices {
+    margin-top: 27px;
+  }
+
+  .loyaut-2-colomn__prices {
+    padding-bottom: 84px;
+  }
 }
 
 @media (max-width: 710px) {
@@ -719,5 +752,63 @@ h1 {
 
   .service__navigation {
     padding-top: 29px;
+  }
+
+  .prices__header {
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .prices__header_color {
+    font-size: 20px;
+    line-height: 35px;
+    max-width: 230px;
+    padding: 0;
+  }
+
+  .prices-information {
+    gap: 39px;
+  }
+
+  .prices__items {
+    gap: 12px;
+    padding: 25px 23px;
+  }
+  .prices__items-colored p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .prices__items-colored {
+    width: 180px;
+    padding-top: 15.91px;
+    padding-bottom: 15.91px;
+    padding: 16px 32px;
+  }
+
+  .prices__contsct {
+    padding-top: 21px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .button_prices {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+    padding: 7px 24px;
+  }
+
+  .prices__image {
+    display: none;
+  }
+
+  .loyaut-2-colomn__prices {
+    padding-top: 26px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
   }
 }
