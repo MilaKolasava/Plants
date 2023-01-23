@@ -77,6 +77,25 @@ html {
   font-weight: 400;
 }
 
+.header-burger {
+  display: none;
+}
+
+.navigation-link_normal,
+.navigation-link_active {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #cdcdcd;
+  text-decoration: none;
+}
+.navigation-link_active {
+  border: 3px solid #f1cdb3;
+  border-width: 0 0 3px 0;
+}
+
 .welcome__image {
   background-image: url(./assets/image/leafs.png);
   background-size: cover;
@@ -690,8 +709,84 @@ h1 {
     width: 330px;
   }
 
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 24px;
+    z-index: 5;
+    cursor: pointer;
+  }
+  .header__burger span,
+  .header__burger::before,
+  .header__burger::after {
+    background-color: #717171;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header__burger::before {
+    content: " ";
+    top: 0;
+  }
+
+  .header__burger::after {
+    content: " ";
+    bottom: 0;
+  }
+
+  .header__burger span {
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+  }
+
+  .header__burger._active span {
+    transform: scale(0) translate(0px, -50%);
+    transform: rotate(90deg);
+  }
+
+  .header__burger._active::after {
+    bottom: 45%;
+    transform: rotate(90deg) translateY(9px);
+  }
+
+  .header__burger._active::before {
+    top: 45%;
+    transform: rotate(90deg) translateY(-9px);
+  }
+
   .navigation {
-    display: none;
+    position: fixed;
+    top: 0;
+    right: -300%;
+    width: 320px;
+    height: 823px;
+    background-color: #a1c490;
+    padding: 158px 0px 30px 0px;
+    transition: all 0.3s ease 0s;
+    overflow: auto;
+  }
+
+  .navigation._active {
+    right: 0;
+  }
+
+  .navigation-link {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .navigation-link li a {
+    font-size: 30px;
+    line-height: 80%;
+    color: #fffefe;
+  }
+
+  .logo {
+    z-index: 5;
   }
 
   .welcome__image {
