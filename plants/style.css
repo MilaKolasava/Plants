@@ -746,16 +746,17 @@ h1 {
   .header__burger._active span {
     transform: scale(0) translate(0px, -50%);
     transform: rotate(90deg);
+    display: none;
   }
 
   .header__burger._active::after {
     bottom: 45%;
-    transform: rotate(90deg) translateY(9px);
+    transform: rotate(130deg) translateY(0px);
   }
 
   .header__burger._active::before {
-    top: 45%;
-    transform: rotate(90deg) translateY(-9px);
+    top: 46%;
+    transform: rotate(50deg) translateY(0px);
   }
 
   .navigation {
