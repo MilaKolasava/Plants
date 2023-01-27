@@ -763,7 +763,7 @@ h1 {
     position: fixed;
     top: 0;
     right: -300%;
-    width: 320px;
+    width: 280px;
     height: 823px;
     background-color: #a1c490;
     padding: 158px 0px 30px 0px;
@@ -784,6 +784,7 @@ h1 {
     font-size: 30px;
     line-height: 80%;
     color: #fffefe;
+    padding-left: 20px;
   }
 
   .logo {
