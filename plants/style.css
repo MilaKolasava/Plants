@@ -232,6 +232,11 @@ h1 {
   background: none;
 }
 
+.button_colored._active {
+  background: #e06733;
+  color: #ffffff;
+}
+
 .button_colored:hover {
   background: #e06733;
   color: #ffffff;
@@ -250,6 +255,14 @@ h1 {
   align-items: center;
   border: 1px solid #e3e1d5;
   border-radius: 20px;
+}
+
+.service__information-item {
+  filter: blur(3px);
+}
+
+.service__information-item._active {
+  filter: blur(0);
 }
 
 .service__image {
