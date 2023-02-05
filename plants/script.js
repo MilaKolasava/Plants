@@ -51,3 +51,34 @@ headerNavigation.addEventListener("click", (event) => {
     closeMenu();
   }
 });
+
+
+const serviceMenu = document.querySelectorAll('.service__information-item');
+const serviceButton = document.querySelectorAll('.button_colored');
+console.log(serviceButton);
+console.log(serviceMenu);
+
+if (serviceButton) {
+  for (let a = 0 ; a < serviceButton.length; a++) {
+    serviceButton[a].addEventListener('click', function (event) {
+    
+      for (let serviceButtonItem of serviceButton) {
+        serviceButtonItem.classList.remove('_active');
+      } 
+
+      serviceButton[a].classList.toggle('_active');;
+
+      for (let serviceMenuItem of serviceMenu) {
+        serviceMenuItem.classList.remove('_active');
+      } 
+  
+      for (let i = 0; i < serviceMenu.length; i++) {
+        if (serviceMenu[i].dataset.type === serviceButton[a].dataset.type) {
+          serviceMenu[i].classList.toggle('_active');
+        }
+      }
+    
+    
+  });
+}
+}
